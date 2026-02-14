@@ -1,3 +1,3 @@
-## A unified platform for simplified compute, storage, and networking.
+## Welcome to OtterScale 🙌
 
 🧙 Everything is currently under construction.
