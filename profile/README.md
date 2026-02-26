@@ -14,8 +14,8 @@
 
 #### Operators
 
+- [addons-operator](https://github.com/otterscale/addons-operator)
 - [tenant-operator](https://github.com/otterscale/tenant-operator)
-- addons-operator
 - apps-operator
 - fleet-operator
 - llm-operator
