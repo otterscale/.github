@@ -1,28 +1,28 @@
-## <samp>Welcome to OtterScale</samp> :raised_hands:
+## Welcome to OtterScale :raised_hands:
 
 > <samp>Kubernetes-native platform for unified compute, storage, and networking.</samp>
 
-### <samp>Platform</samp>
+### Platform
 
-- [<samp>otterscale</samp>](https://github.com/otterscale/otterscale)
-- [<samp>dashboard</samp>](https://github.com/otterscale/dashboard)
+- [otterscale](https://github.com/otterscale/otterscale)
+- [dashboard](https://github.com/otterscale/dashboard)
 
-### <samp>API & Types</samp>
+### API & Types
 
-- [<samp>api</samp>](https://github.com/otterscale/api)
-- [<samp>types</samp>](https://github.com/otterscale/types)
+- [api](https://github.com/otterscale/api)
+- [types](https://github.com/otterscale/types)
 
-### <samp>Operators</samp>
+### Operators
 
-- [<samp>tenant-operator</samp>](https://github.com/otterscale/tenant-operator)
-- <samp>addons-operator</samp>
-- <samp>apps-operator</samp>
-- <samp>fleet-operator</samp>
-- <samp>llm-operator</samp>
+- [tenant-operator](https://github.com/otterscale/tenant-operator)
+- addons-operator
+- apps-operator
+- fleet-operator
+- llm-operator
 
-### <samp>Ecosystem</samp>
+### Ecosystem
 
-- [<samp>charts</samp>](https://github.com/otterscale/charts)
-- [<samp>keycloakify</samp>](https://github.com/otterscale/keycloakify)
-- [<samp>operator-template</samp>](https://github.com/otterscale/operator-template)
-- [<samp>otterscale.github.io</samp>](https://github.com/otterscale/otterscale.github.io)
+- [charts](https://github.com/otterscale/charts)
+- [keycloakify](https://github.com/otterscale/keycloakify)
+- [operator-template](https://github.com/otterscale/operator-template)
+- [otterscale.github.io](https://github.com/otterscale/otterscale.github.io)
