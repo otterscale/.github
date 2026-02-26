@@ -2,17 +2,17 @@
 
 > <samp>Kubernetes-native platform for unified compute, storage, and networking.</samp>
 
-### Platform
+#### Platform
 
 - [otterscale](https://github.com/otterscale/otterscale)
 - [dashboard](https://github.com/otterscale/dashboard)
 
-### API & Types
+#### API & Types
 
 - [api](https://github.com/otterscale/api)
 - [types](https://github.com/otterscale/types)
 
-### Operators
+#### Operators
 
 - [tenant-operator](https://github.com/otterscale/tenant-operator)
 - addons-operator
@@ -20,7 +20,7 @@
 - fleet-operator
 - llm-operator
 
-### Ecosystem
+#### Ecosystem
 
 - [charts](https://github.com/otterscale/charts)
 - [keycloakify](https://github.com/otterscale/keycloakify)
