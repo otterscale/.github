@@ -27,5 +27,5 @@
 - [operator-template](https://github.com/otterscale/operator-template) <sub>[![](https://img.shields.io/github/v/release/otterscale/operator-template?label=)](https://github.com/otterscale/operator-template/releases)</sub>
 - [keycloakify](https://github.com/otterscale/keycloakify) <sub>[![](https://img.shields.io/github/v/release/otterscale/keycloakify?label=)](https://github.com/otterscale/keycloakify/releases)</sub>
 - [charts](https://github.com/otterscale/charts)
-- [otterscale.github.io](https://github.com/otterscale/otterscale.github.io)
+- [docs](https://github.com/otterscale/docs)
  
