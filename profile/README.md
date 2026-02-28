@@ -20,7 +20,7 @@
 - [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/addons-operator?label=)](https://github.com/otterscale/addons-operator/releases)</sub>
 - [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/apps-operator?label=)](https://github.com/otterscale/apps-operator/releases)</sub>
 - [llm-operator](https://github.com/otterscale/llm-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/llm-operator?label=)](https://github.com/otterscale/llm-operator/releases)</sub>
-- _fleet-operator_
+- fleet-operator
 
 #### Ecosystem
 
