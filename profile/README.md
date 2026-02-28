@@ -4,8 +4,6 @@
 
 #### Platform
 
-
-
 - [otterscale](https://github.com/otterscale/otterscale)
 - [dashboard](https://github.com/otterscale/dashboard) <sub>[![](https://img.shields.io/github/v/release/otterscale/dashboard?label=)](https://github.com/otterscale/dashboard/releases)</sub>
 
@@ -16,11 +14,11 @@
 
 #### Operators
 
-- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/tenant-operator?label=)](https://github.com/otterscale/tenant-operator/releases)</sub>
 - [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/addons-operator?label=)](https://github.com/otterscale/addons-operator/releases)</sub>
 - [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/apps-operator?label=)](https://github.com/otterscale/apps-operator/releases)</sub>
-- [llm-operator](https://github.com/otterscale/llm-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/llm-operator?label=)](https://github.com/otterscale/llm-operator/releases)</sub>
 - fleet-operator
+- [model-operator](https://github.com/otterscale/model-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/model-operator?label=)](https://github.com/otterscale/model-operator/releases)</sub>
+- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/tenant-operator?label=)](https://github.com/otterscale/tenant-operator/releases)</sub>
 
 #### Ecosystem
 
