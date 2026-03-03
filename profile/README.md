@@ -1,6 +1,6 @@
 # Welcome to OtterScale :raised_hands:
 
-> <samp>Kubernetes-native platform for unified compute, storage, and networking.</samp>
+Kubernetes-native platform for unified compute, storage, and networking.
 
 ## Platform
 
