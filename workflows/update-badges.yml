@@ -1,0 +1,59 @@
+name: Update Release Badges
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest releases and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          readme="profile/README.md"
+
+          repos=(
+            otterscale
+            dashboard
+            api
+            types
+            addons-operator
+            apps-operator
+            fleet-operator
+            model-operator
+            tenant-operator
+            operator-template
+            keycloakify
+          )
+
+          for name in "${repos[@]}"; do
+            version=$(gh api "repos/otterscale/${name}/releases/latest" --jq '.tag_name' 2>/dev/null || echo "")
+            if [ -z "$version" ]; then
+              echo "✗ ${name}: no release found, skipping"
+              continue
+            fi
+            echo "✓ ${name}: ${version}"
+
+            msg=$(echo "$version" | sed 's/-/--/g; s/_/__/g')
+            badge_img="https://img.shields.io/badge/${msg}-blue"
+            release_url="https://github.com/otterscale/${name}/releases"
+
+            sed -i "s|<sub>\[.*\](${release_url})</sub>|<sub>[![${version}](${badge_img})](${release_url})</sub>|" "$readme"
+          done
+
+      - name: Commit and push if changed
+        run: |
+          git diff --quiet profile/README.md && echo "No changes" && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "chore: update release badges"
+          git push
