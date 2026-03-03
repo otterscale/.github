@@ -23,7 +23,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 ## Ecosystem
 
 - [operator-template](https://github.com/otterscale/operator-template) <sub>[![v1.0.0](https://img.shields.io/badge/v1.0.0-ec4899)](https://github.com/otterscale/operator-template/releases)</sub>
-- [keycloakify](https://github.com/otterscale/keycloakify) <sub>[![v1.2.0](https://img.shields.io/badge/v1.2.0-06b6d4)](https://github.com/otterscale/keycloakify/releases)</sub>
+- [keycloakify](https://github.com/otterscale/keycloakify) <sub>[![v1.2.1](https://img.shields.io/badge/v1.2.1-06b6d4)](https://github.com/otterscale/keycloakify/releases)</sub>
 - [charts](https://github.com/otterscale/charts)
 - [docs](https://github.com/otterscale/docs)
  
