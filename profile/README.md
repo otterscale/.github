@@ -4,7 +4,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 
 ## Platform
 
-- [otterscale](https://github.com/otterscale/otterscale)
+- [otterscale](https://github.com/otterscale/otterscale) <sub>[![v0.7.9](https://img.shields.io/badge/v0.0.0-ec4899)](https://github.com/otterscale/otterscale/releases)</sub>
 - [dashboard](https://github.com/otterscale/dashboard) <sub>[![v0.7.9](https://img.shields.io/badge/v0.7.9-ec4899)](https://github.com/otterscale/dashboard/releases)</sub>
 
 ## API & Types
