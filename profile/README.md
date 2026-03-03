@@ -5,25 +5,25 @@ Kubernetes-native platform for unified compute, storage, and networking.
 ## Platform
 
 - [otterscale](https://github.com/otterscale/otterscale)
-- [dashboard](https://github.com/otterscale/dashboard) <sub>[![](https://img.shields.io/github/v/release/otterscale/dashboard?label=)](https://github.com/otterscale/dashboard/releases)</sub>
+- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v0.7.9](https://img.shields.io/badge/v0.7.9-ec4899)](https://github.com/otterscale/dashboard/releases)</sub>
 
 ## API & Types
 
-- [api](https://github.com/otterscale/api) <sub>[![](https://img.shields.io/github/v/release/otterscale/api?label=)](https://github.com/otterscale/api/releases)</sub>
-- [types](https://github.com/otterscale/types) <sub>[![](https://img.shields.io/github/v/release/otterscale/types?label=)](https://github.com/otterscale/types/releases)</sub>
+- [api](https://github.com/otterscale/api) <sub>[![v0.8.14](https://img.shields.io/badge/v0.8.14-6366f1)](https://github.com/otterscale/api/releases)</sub>
+- [types](https://github.com/otterscale/types) <sub>[![v0.8.1](https://img.shields.io/badge/v0.8.1-6366f1)](https://github.com/otterscale/types/releases)</sub>
 
 ## Operators
 
-- [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/addons-operator?label=)](https://github.com/otterscale/addons-operator/releases)</sub>
-- [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/apps-operator?label=)](https://github.com/otterscale/apps-operator/releases)</sub>
-- [fleet-operator](https://github.com/otterscale/fleet-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/fleet-operator?label=)](https://github.com/otterscale/fleet-operator/releases)</sub>
-- [model-operator](https://github.com/otterscale/model-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/model-operator?label=)](https://github.com/otterscale/model-operator/releases)</sub>
-- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/tenant-operator?label=)](https://github.com/otterscale/tenant-operator/releases)</sub>
+- [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![v0.8.1](https://img.shields.io/badge/v0.8.1-6366f1)](https://github.com/otterscale/addons-operator/releases)</sub>
+- [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/apps-operator/releases)</sub>
+- [fleet-operator](https://github.com/otterscale/fleet-operator) <sub>[![v0.1.0](https://img.shields.io/badge/v0.1.0-22c55e)](https://github.com/otterscale/fleet-operator/releases)</sub>
+- [model-operator](https://github.com/otterscale/model-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/model-operator/releases)</sub>
+- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/tenant-operator/releases)</sub>
 
 ## Ecosystem
 
-- [operator-template](https://github.com/otterscale/operator-template) <sub>[![](https://img.shields.io/github/v/release/otterscale/operator-template?label=)](https://github.com/otterscale/operator-template/releases)</sub>
-- [keycloakify](https://github.com/otterscale/keycloakify) <sub>[![](https://img.shields.io/github/v/release/otterscale/keycloakify?label=)](https://github.com/otterscale/keycloakify/releases)</sub>
+- [operator-template](https://github.com/otterscale/operator-template) <sub>[![v1.0.0](https://img.shields.io/badge/v1.0.0-ec4899)](https://github.com/otterscale/operator-template/releases)</sub>
+- [keycloakify](https://github.com/otterscale/keycloakify) <sub>[![v1.2.0](https://img.shields.io/badge/v1.2.0-06b6d4)](https://github.com/otterscale/keycloakify/releases)</sub>
 - [charts](https://github.com/otterscale/charts)
 - [docs](https://github.com/otterscale/docs)
  
