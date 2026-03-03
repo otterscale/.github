@@ -16,9 +16,9 @@ Kubernetes-native platform for unified compute, storage, and networking.
 
 - [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/addons-operator?label=)](https://github.com/otterscale/addons-operator/releases)</sub>
 - [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/apps-operator?label=)](https://github.com/otterscale/apps-operator/releases)</sub>
+- [fleet-operator](https://github.com/otterscale/fleet-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/fleet-operator?label=)](https://github.com/otterscale/fleet-operator/releases)</sub>
 - [model-operator](https://github.com/otterscale/model-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/model-operator?label=)](https://github.com/otterscale/model-operator/releases)</sub>
 - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![](https://img.shields.io/github/v/release/otterscale/tenant-operator?label=)](https://github.com/otterscale/tenant-operator/releases)</sub>
-- fleet-operator
 
 ## Ecosystem
 
