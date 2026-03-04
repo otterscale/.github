@@ -14,11 +14,13 @@ Kubernetes-native platform for unified compute, storage, and networking.
 
 ## Operators
 
-- [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![v0.8.1](https://img.shields.io/badge/v0.8.1-6366f1)](https://github.com/otterscale/addons-operator/releases)</sub>
-- [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/apps-operator/releases)</sub>
-- [fleet-operator](https://github.com/otterscale/fleet-operator) <sub>[![v0.1.0](https://img.shields.io/badge/v0.1.0-22c55e)](https://github.com/otterscale/fleet-operator/releases)</sub>
-- [model-operator](https://github.com/otterscale/model-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/model-operator/releases)</sub>
-- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/tenant-operator/releases)</sub>
+- Management
+  - [fleet-operator](https://github.com/otterscale/fleet-operator) <sub>[![v0.1.0](https://img.shields.io/badge/v0.1.0-22c55e)](https://github.com/otterscale/fleet-operator/releases)</sub>
+- Workload
+  - [addons-operator](https://github.com/otterscale/addons-operator) <sub>[![v0.8.1](https://img.shields.io/badge/v0.8.1-6366f1)](https://github.com/otterscale/addons-operator/releases)</sub>
+  - [apps-operator](https://github.com/otterscale/apps-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/apps-operator/releases)</sub>
+  - [model-operator](https://github.com/otterscale/model-operator) <sub>[![v0.8.0](https://img.shields.io/badge/v0.8.0-6366f1)](https://github.com/otterscale/model-operator/releases)</sub>
+  - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/tenant-operator/releases)</sub>
 
 ## Ecosystem
 
