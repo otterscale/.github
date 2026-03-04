@@ -27,11 +27,11 @@ jobs:
             dashboard
             api
             types
-            addons-operator
-            apps-operator
             fleet-operator
             model-operator
+            module-operator
             tenant-operator
+            workload-operator
             operator-template
             keycloakify
           )
