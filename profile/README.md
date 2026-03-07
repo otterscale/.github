@@ -19,7 +19,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 - Workload
   - [model-operator](https://github.com/otterscale/model-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/model-operator/releases)</sub>
   - [module-operator](https://github.com/otterscale/module-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/module-operator/releases)</sub>
-  - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.8.4](https://img.shields.io/badge/v0.8.4-6366f1)](https://github.com/otterscale/tenant-operator/releases)</sub>
+  - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.8.5](https://img.shields.io/badge/v0.8.5-6366f1)](https://github.com/otterscale/tenant-operator/releases)</sub>
   - [workload-operator](https://github.com/otterscale/workload-operator) <sub>[![v0.8.2](https://img.shields.io/badge/v0.8.2-6366f1)](https://github.com/otterscale/workload-operator/releases)</sub>
 
 ### Ecosystem
