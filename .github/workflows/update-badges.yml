@@ -46,25 +46,57 @@ jobs:
             echo "${colors[$idx]}"
           }
 
+          make_badge() {
+            local ver="$1" label="$2"
+            local minor msg color badge_img
+            minor=$(echo "$ver" | sed 's/^v//; s/\([0-9]*\.[0-9]*\).*/\1/')
+            color=$(pick_color "$minor")
+            msg=$(echo "$ver" | sed 's/-/--/g; s/_/__/g')
+            if [[ -n "$label" ]]; then
+              badge_img="https://img.shields.io/badge/${msg}-${color}?label=${label}"
+            else
+              badge_img="https://img.shields.io/badge/${msg}-${color}"
+            fi
+            echo "$badge_img"
+          }
+
           for name in "${repos[@]}"; do
-            version=$(gh api "repos/otterscale/${name}/releases/latest" --jq '.tag_name' 2>/dev/null || true)
             release_url="https://github.com/otterscale/${name}/releases"
 
-            if ! [[ "$version" =~ ^v?[0-9]+\.[0-9]+ ]]; then
-              echo "✗ ${name}: no valid release found, marking as alpha"
-              badge_img="https://img.shields.io/badge/alpha-lightgrey"
-              sed -i "s|<sub>\[.*\](${release_url})</sub>|<sub>[![alpha](${badge_img})](${release_url})</sub>|" "$readme"
-              continue
+            # Fetch latest stable release
+            version=$(gh api "repos/otterscale/${name}/releases/latest" --jq '.tag_name' 2>/dev/null || true)
+
+            # Fetch latest pre-release
+            pre_version=$(gh api "repos/otterscale/${name}/releases" --jq '[.[] | select(.prerelease == true and .draft == false)][0].tag_name' 2>/dev/null || true)
+
+            badges=""
+
+            # Build stable release badge
+            if [[ "$version" =~ ^v?[0-9]+\.[0-9]+ ]]; then
+              badge_img=$(make_badge "$version")
+              badges="[![${version}](${badge_img})](${release_url})"
+              echo "✓ ${name}: release ${version}"
             fi
 
-            minor=$(echo "$version" | sed 's/^v//; s/\([0-9]*\.[0-9]*\).*/\1/')
-            color=$(pick_color "$minor")
-            echo "✓ ${name}: ${version} (${minor} → ${color})"
+            # Build pre-release badge if it exists and differs from stable
+            if [[ "$pre_version" =~ ^v?[0-9]+\.[0-9]+ ]] && [[ "$pre_version" != "$version" ]]; then
+              pre_badge_img=$(make_badge "$pre_version" "pre")
+              if [[ -n "$badges" ]]; then
+                badges="${badges} [![${pre_version}](${pre_badge_img})](${release_url})"
+              else
+                badges="[![${pre_version}](${pre_badge_img})](${release_url})"
+              fi
+              echo "✓ ${name}: pre-release ${pre_version}"
+            fi
 
-            msg=$(echo "$version" | sed 's/-/--/g; s/_/__/g')
-            badge_img="https://img.shields.io/badge/${msg}-${color}"
+            # Fallback to alpha if no releases found
+            if [[ -z "$badges" ]]; then
+              echo "✗ ${name}: no valid release found, marking as alpha"
+              badge_img="https://img.shields.io/badge/alpha-lightgrey"
+              badges="[![alpha](${badge_img})](${release_url})"
+            fi
 
-            sed -i "s|<sub>\[.*\](${release_url})</sub>|<sub>[![${version}](${badge_img})](${release_url})</sub>|" "$readme"
+            sed -i "\|${release_url}|s|<sub>.*</sub>|<sub>${badges}</sub>|" "$readme"
           done
 
       - name: Commit and push if changed
