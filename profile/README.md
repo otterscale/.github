@@ -5,7 +5,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 ### Platform
 
 - [otterscale](https://github.com/otterscale/otterscale) <sub>[![v0.9.3](https://img.shields.io/badge/v0.9.3-06b6d4)](https://github.com/otterscale/otterscale/releases) [![v1.0.0-beta.1](https://img.shields.io/badge/v1.0.0--beta.1-ec4899?label=pre)](https://github.com/otterscale/otterscale/releases)</sub>
-- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v0.9.4](https://img.shields.io/badge/v0.9.4-06b6d4)](https://github.com/otterscale/dashboard/releases) [![v1.0.0-alpha.3](https://img.shields.io/badge/v1.0.0--alpha.3-ec4899?label=pre)](https://github.com/otterscale/dashboard/releases)</sub>
+- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v0.9.4](https://img.shields.io/badge/v0.9.4-06b6d4)](https://github.com/otterscale/dashboard/releases) [![v1.0.0-alpha.5](https://img.shields.io/badge/v1.0.0--alpha.5-ec4899?label=pre)](https://github.com/otterscale/dashboard/releases)</sub>
 
 ### API & Types
 
@@ -19,7 +19,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 - Workload
   - [model-operator](https://github.com/otterscale/model-operator) <sub>[![v0.9.2](https://img.shields.io/badge/v0.9.2-06b6d4)](https://github.com/otterscale/model-operator/releases)</sub>
   - [module-operator](https://github.com/otterscale/module-operator) <sub>[![v0.9.0](https://img.shields.io/badge/v0.9.0-06b6d4)](https://github.com/otterscale/module-operator/releases)</sub>
-  - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.9.1](https://img.shields.io/badge/v0.9.1-06b6d4)](https://github.com/otterscale/tenant-operator/releases)</sub>
+  - [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v0.9.1](https://img.shields.io/badge/v0.9.1-06b6d4)](https://github.com/otterscale/tenant-operator/releases) [![v1.0.0-beta.2](https://img.shields.io/badge/v1.0.0--beta.2-ec4899?label=pre)](https://github.com/otterscale/tenant-operator/releases)</sub>
   - [workload-operator](https://github.com/otterscale/workload-operator) <sub>[![v0.9.1](https://img.shields.io/badge/v0.9.1-06b6d4)](https://github.com/otterscale/workload-operator/releases)</sub>
 
 ### Ecosystem
