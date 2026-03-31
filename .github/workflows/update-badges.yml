@@ -46,6 +46,22 @@ jobs:
             echo "${colors[$idx]}"
           }
 
+          # Compare semver: returns 0 if $1 > $2 (base versions only, ignoring prerelease suffix)
+          semver_gt() {
+            local a="${1#v}" b="${2#v}"
+            # Strip prerelease suffix (everything from first hyphen)
+            a="${a%%-*}" b="${b%%-*}"
+            local a_major="${a%%.*}" b_major="${b%%.*}"
+            local a_rest="${a#*.}" b_rest="${b#*.}"
+            local a_minor="${a_rest%%.*}" b_minor="${b_rest%%.*}"
+            local a_patch="${a_rest#*.}" b_patch="${b_rest#*.}"
+            a_patch="${a_patch%%.*}" b_patch="${b_patch%%.*}"
+            : "${a_patch:=0}" "${b_patch:=0}"
+            if (( a_major != b_major )); then (( a_major > b_major )); return; fi
+            if (( a_minor != b_minor )); then (( a_minor > b_minor )); return; fi
+            (( a_patch > b_patch ))
+          }
+
           make_badge() {
             local ver="$1" label="$2"
             local minor msg color badge_img
@@ -78,8 +94,8 @@ jobs:
               echo "✓ ${name}: release ${version}"
             fi
 
-            # Build pre-release badge if it exists and differs from stable
-            if [[ "$pre_version" =~ ^v?[0-9]+\.[0-9]+ ]] && [[ "$pre_version" != "$version" ]]; then
+            # Build pre-release badge only if its base version is greater than stable
+            if [[ "$pre_version" =~ ^v?[0-9]+\.[0-9]+ ]] && semver_gt "$pre_version" "$version"; then
               pre_badge_img=$(make_badge "$pre_version" "pre")
               if [[ -n "$badges" ]]; then
                 badges="${badges} [![${pre_version}](${pre_badge_img})](${release_url})"
