@@ -4,8 +4,8 @@ Kubernetes-native platform for unified compute, storage, and networking.
 
 ### Platform
 
-- [otterscale](https://github.com/otterscale/otterscale) <sub>[![v1.0.4](https://img.shields.io/badge/v1.0.4-ec4899)](https://github.com/otterscale/otterscale/releases)</sub>
-- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v1.0.7](https://img.shields.io/badge/v1.0.7-ec4899)](https://github.com/otterscale/dashboard/releases)</sub>
+- [otterscale](https://github.com/otterscale/otterscale) <sub>[![v1.0.5](https://img.shields.io/badge/v1.0.5-ec4899)](https://github.com/otterscale/otterscale/releases)</sub>
+- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v1.0.8](https://img.shields.io/badge/v1.0.8-ec4899)](https://github.com/otterscale/dashboard/releases)</sub>
 
 ### API & Types
 
@@ -14,7 +14,7 @@ Kubernetes-native platform for unified compute, storage, and networking.
 
 ### Operators
 
-- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v1.0.3](https://img.shields.io/badge/v1.0.3-ec4899)](https://github.com/otterscale/tenant-operator/releases)</sub>
+- [tenant-operator](https://github.com/otterscale/tenant-operator) <sub>[![v1.0.4](https://img.shields.io/badge/v1.0.4-ec4899)](https://github.com/otterscale/tenant-operator/releases)</sub>
 - [workload-operator](https://github.com/otterscale/workload-operator) <sub>[![v1.0.0](https://img.shields.io/badge/v1.0.0-ec4899)](https://github.com/otterscale/workload-operator/releases)</sub>
 - [model-operator](https://github.com/otterscale/model-operator) <sub>[![v1.0.1](https://img.shields.io/badge/v1.0.1-ec4899)](https://github.com/otterscale/model-operator/releases)</sub>
 - [module-operator](https://github.com/otterscale/module-operator) <sub>[![v0.9.0](https://img.shields.io/badge/v0.9.0-06b6d4)](https://github.com/otterscale/module-operator/releases)</sub>
