@@ -5,12 +5,12 @@ Kubernetes-native platform for unified compute, storage, and networking.
 ### Platform
 
 - [otterscale](https://github.com/otterscale/otterscale) <sub>[![v1.1.0](https://img.shields.io/badge/v1.1.0-6366f1)](https://github.com/otterscale/otterscale/releases)</sub>
-- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v1.0.9](https://img.shields.io/badge/v1.0.9-ec4899)](https://github.com/otterscale/dashboard/releases)</sub>
+- [dashboard](https://github.com/otterscale/dashboard) <sub>[![v1.0.9](https://img.shields.io/badge/v1.0.9-ec4899)](https://github.com/otterscale/dashboard/releases) [![v1.1.0-beta.1](https://img.shields.io/badge/v1.1.0--beta.1-6366f1?label=pre)](https://github.com/otterscale/dashboard/releases)</sub>
 
 ### API & Types
 
 - [api](https://github.com/otterscale/api) <sub>[![v1.1.1](https://img.shields.io/badge/v1.1.1-6366f1)](https://github.com/otterscale/api/releases)</sub>
-- [types](https://github.com/otterscale/types) <sub>[![v1.0.1](https://img.shields.io/badge/v1.0.1-ec4899)](https://github.com/otterscale/types/releases)</sub>
+- [types](https://github.com/otterscale/types) <sub>[![v1.1.0](https://img.shields.io/badge/v1.1.0-6366f1)](https://github.com/otterscale/types/releases)</sub>
 
 ### Operators
 
